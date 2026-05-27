@@ -21,7 +21,9 @@ spec:
         command: 
           - /bin/sh
           - -c
-          - "echo 'just monkeying around and around ...' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
+          - "echo 'welcome to my web app!'  > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
+          # - "echo 'welcome to my NEW web app!'  > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
+          # - "echo 'just monkeying around and around ...' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
       dnsConfig:
             options:
               - name: ndots
