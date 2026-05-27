@@ -56,7 +56,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: floopy.bt.dawn # web-app.kube-dc-1.home.lab
+  - host: ei.bt.dawn # web-app.kube-dc-1.home.lab
     http:
       paths:
       - path: /
